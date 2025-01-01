@@ -281,7 +281,7 @@
   .container-hero {
     background-color: var(--secondary-color);
     color: var(--alter-color);
-    padding-bottom:20px ;
+    padding-bottom: 20px;
   }
 
   .hero-text {
@@ -383,7 +383,6 @@
     margin-left: 3.5rem;
     font-family: "nunito";
     padding: 10px;
-    
   }
 
   /* the information section were starts  */
@@ -501,5 +500,513 @@
     font-size: 12px;
     margin-left: 2.5rem;
     padding: 10px;
+  }
+}
+
+/* now started for 425px  */
+
+@media screen and (min-width: 425px) {
+  body {
+    background-color: var(--accent-color);
+    /* display: none; */
+  }
+
+  /* the header section were starts  */
+  .container-header {
+    background-color: #000000e0;
+
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+  }
+
+  .container-header img {
+    width: 14rem;
+  }
+  /* the hero section were starts  */
+
+  .container-hero {
+    background-color: var(--secondary-color);
+    color: var(--alter-color);
+    padding-bottom: 20px;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .hero-text h1 {
+    color: var(--alter-color);
+    font-family: "nunito";
+    text-transform: capitalize;
+    width: 10rem;
+    margin-left: 9rem;
+  }
+  .people-text {
+    font-family: "Dawning of a New Day", serif;
+    color: var(--primary-color);
+  }
+  .pc-text {
+    color: var(--primary-color);
+  }
+
+  .hero-text p {
+    color: #fea116;
+    font-family: "poppins";
+    font-size: 15px;
+    margin: auto 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .hero-text button {
+    border-radius: none;
+    padding: 8px;
+    display: inline-block;
+    background-color: #fea116;
+    color: white;
+    font-family: "poppins";
+    text-transform: uppercase;
+    margin: 10px;
+    border: none;
+  }
+
+  .hero-text img {
+    width: 100px;
+    display: inline-block;
+    background: transparent;
+  }
+
+  /* the main section starts  */
+
+  .container-main {
+    padding-bottom: 30px;
+  }
+  .row-text-content {
+    text-align: center;
+  }
+
+  .row-text {
+    border: none;
+    font-family: "poppins";
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 12px 12px 19px 1px #00000081;
+    transition: 1s;
+  }
+
+  .row-text h5 {
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 1px;
+  }
+
+  .row-text h3 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-family: "poppins";
+    font-weight: 600;
+    padding: 1px;
+  }
+
+  .row-text p {
+    font-family: "poppins";
+    font-size: 13px;
+    padding: 1px;
+  }
+
+  .row-text:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+  }
+
+  .row-text h3:hover {
+    color: var(--accent-color);
+  }
+
+  .main-footer h2 {
+    color: var(--primary-color);
+    font-size: 23px;
+    margin-left: 4.5rem;
+    font-family: "nunito";
+    padding: 10px;
+  }
+
+  /* the information section were starts  */
+
+  .info-section {
+    text-align: center;
+    font-family: "poppins";
+    text-transform: capitalize;
+    padding: 20px 0px;
+  }
+
+  .info-heading h1 {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: start;
+    padding: 6px;
+  }
+
+  .info-head h2 {
+    margin: 10px;
+    font-family: "nunito";
+    text-align: start;
+  }
+
+  .para-one {
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: var(--alter-color);
+    font-family: "poppins";
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  /* the contact section were starts */
+  .container-contact {
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: "poppins";
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact-heading h1 {
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  .contact-btn {
+    padding: 10px;
+    color: white;
+    background-color: var(--primary-color);
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    font-family: "poppins";
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .contact-btn:hover {
+    cursor: pointer;
+  }
+
+  .container-contact p {
+    font-size: 15px;
+    font-family: "nunito";
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contact-image img {
+    width: 13rem;
+    margin-bottom: 30px;
+  }
+
+  /* the footer starts from here  */
+  footer {
+    margin-top: 40px;
+  }
+  .container-footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 20px;
+  }
+
+  .container-footer h1 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  .company,
+  .contact,
+  .timing {
+    margin: 20px;
+    font-family: "poppins";
+  }
+
+  .company li,
+  .contact li,
+  .timing li {
+    margin: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: "poppins";
+    padding-left: 20px;
+  }
+
+  .container-footer p {
+    width: 16rem;
+    font-family: "poppins";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-left: 4rem;
+    padding: 10px;
+    /* border: 1px solid; */
+  }
+}
+
+/* now started for 768px */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: var(--accent-color);
+    /* display: none; */
+  }
+
+  /* the header section were starts  */
+  .container-header {
+    background-color: #000000e0;
+
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+  }
+
+  .container-header img {
+    width: 14rem;
+  }
+  /* the hero section were starts  */
+
+  .container-hero {
+    background-color: var(--secondary-color);
+    color: var(--alter-color);
+    padding-bottom: 20px;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .hero-text h1 {
+    color: var(--alter-color);
+    font-family: "nunito";
+    text-transform: capitalize;
+    width: 25rem;
+    margin-left: 12rem;
+    /* border: 1px solid ; */
+    font-size: 4rem;
+  }
+  .people-text {
+    font-family: "Dawning of a New Day", serif;
+    color: var(--primary-color);
+  }
+  .pc-text {
+    color: var(--primary-color);
+  }
+
+  .hero-text p {
+    color: #fea116;
+    font-family: "poppins";
+    font-size: 19px;
+    margin: auto 20px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .hero-text button {
+    border-radius: none;
+    padding: 15px;
+    display: inline-block;
+    background-color: #fea116;
+    color: white;
+    font-family: "poppins";
+    text-transform: uppercase;
+    margin: 10px;
+    border: none;
+    margin-left: 2rem;
+  }
+
+  .hero-text img {
+    width: 100px;
+    display: inline-block;
+    background: transparent;
+  }
+
+  /* the main section starts  */
+
+  .container-main {
+    padding-bottom: 30px;
+  }
+  .row-text-content {
+    text-align: center;
+  }
+
+  .row-text {
+    border: none;
+    font-family: "poppins";
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 12px 12px 19px 1px #00000081;
+    transition: 1s;
+    width: 29rem;
+    margin-left: 10rem;
+  }
+
+  .row-text h5 {
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 1px;
+    font-size: 16px;
+  }
+
+  .row-text h3 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-family: "poppins";
+    font-weight: 600;
+    padding: 1px;
+    font-size: 16px;
+  }
+
+  .row-text p {
+    font-family: "poppins";
+    padding: 1px;
+    font-size: 16px;
+  }
+
+  .row-text:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+  }
+
+  .row-text h3:hover {
+    color: var(--accent-color);
+  }
+
+  .main-footer h2 {
+    color: var(--primary-color);
+    font-size: 25px;
+    margin-left: 15rem;
+    font-family: "nunito";
+    padding: 10px;
+    display: inline-block;
+  }
+
+  /* the information section were starts  */
+
+  .info-section {
+    text-align: center;
+    font-family: "poppins";
+    text-transform: capitalize;
+    padding: 20px 0px;
+  }
+
+  .info-heading h1 {
+    font-weight: 600;
+    font-size: 31px;
+    text-align: start;
+    padding: 6px;
+  }
+
+  .info-head h2 {
+    margin: 10px;
+    font-family: "nunito";
+    text-align: start;
+  }
+
+  .para-one {
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: var(--alter-color);
+    font-family: "poppins";
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  /* the contact section were starts */
+  .container-contact {
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: "poppins";
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact-heading h1 {
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+  .contact-btn {
+    padding: 10px;
+    color: white;
+    background-color: var(--primary-color);
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    font-family: "poppins";
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .contact-btn:hover {
+    cursor: pointer;
+  }
+
+  .container-contact p {
+    font-size: 17px;
+    font-family: "nunito";
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contact-image img {
+    width: 13rem;
+    margin-bottom: 30px;
+  }
+
+  /* the footer starts from here  */
+  footer {
+    margin-top: 40px;
+  }
+  .container-footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 56px;
+  }
+
+  .container-footer h1 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  .company,
+  .contact,
+  .timing {
+    margin: 20px;
+    font-family: "poppins";
+  }
+
+  .company li,
+  .contact li,
+  .timing li {
+    margin: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: "poppins";
+    padding-left: 20px;
+  }
+
+  .container-footer p {
+    width: 16rem;
+    font-family: "poppins";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-left: 14rem;
+    padding: 10px;
+    /* border: 1px solid; */
   }
 }
